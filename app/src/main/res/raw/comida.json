@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Cuy con papas",
+    "url": "https://tamalesmexicanos.net/wp-content/uploads/2021/07/cuy-asado-con-papas.jpg",
+    "price": "$45"
+  },
+  {
+    "title": "Ceviche",
+    "url": "https://cevicheweb.com/wp-content/uploads/2019/04/83.-ceviche-blanco-peruano.jpg",
+    "price": "$30"
+  },
+  {
+    "title": "Tacacho con Cecina",
+    "url": "https://img-global.cpcdn.com/recipes/9dd2e5022508625c/680x482cq70/tacacho-con-cecina-jugo-de-cocona-y-salsa-de-cocona-foto-principal.jpg",
+    "price": "$45"
+  },
+  {
+    "title": "Parrilla mixta",
+    "url": "https://buenprovecho.hn/wp-content/uploads/2021/01/Receta-abril1.jpg",
+    "price": "$30"
+  },
+  {
+    "title": "Costilla de res",
+    "url": "https://t2.rg.ltmcdn.com/es/images/6/3/0/costillar_de_cerdo_a_la_parrilla_38036_orig.jpg",
+    "price": "$40"
+  },
+  {
+    "title": "Tallarines rojos",
+    "url": "https://comidasperuanas.net/wp-content/uploads/2016/02/Tallarines-Rojos-Peruanos-con-Pollo-o-Carne.jpg",
+    "price": "$10"
+  }
+]

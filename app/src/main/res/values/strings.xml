@@ -1,7 +1,19 @@
 <resources>
-    <string name="app_name">EvaluaciónContinua3</string>
+    <string name="app_name">Estadisticas</string>
     <string name="login_usuario">Usuario</string>
     <string name="login_contraseña">Contraseña</string>
     <string name="login_button">Ingresar</string>
     <string name="login_cancel_button">Cancelar</string>
+    <string name="login_error_message">la contraseña debe tener 6 caracteres</string>
+    <string name="search_title">Search</string>
+    <string name="filter_title">Titulo</string>
+    <string name="product_title">Titulo</string>
+    <string name="product_description">Es un Nuevo Producto</string>
+    <string name="menu_comida_nuevo">Nuevo</string>
+    <string name="menu_comida_categoria">Categoria</string>
+    <string name="menu_comida_desayuno">Desayuno</string>
+    <string name="menu_comida_almuerzo">Almuerzo</string>
+    <string name="menu_comida_cena">Cena</string>
+    <string name="menu_comida_Cuenta">Cuenta</string>
+
 </resources>
