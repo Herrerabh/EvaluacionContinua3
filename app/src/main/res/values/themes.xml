@@ -52,7 +52,16 @@
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <style name="Widget.NiceShop.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+    <style name="Widget.Evaluacion3.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="android:textColor">@color/white</item> <!-- Colortexto -->
+    </style>
+    <style name="Widget.Evaluacion3.Button3" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item> <!-- Colortexto -->
+        <item name="android:backgroundTint">@color/purple_700</item>
+    </style>
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/griss_oscuro</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">@color/secondary</item>
     </style>
 </resources>

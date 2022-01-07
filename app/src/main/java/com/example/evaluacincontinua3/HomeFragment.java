@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.evaluacincontinua3.network.FoodEntry;
+import com.google.android.material.button.MaterialButton;
 
 public class HomeFragment extends Fragment {
 
@@ -25,6 +26,7 @@ public class HomeFragment extends Fragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
     }
+
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -45,6 +47,15 @@ public class HomeFragment extends Fragment {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             view.findViewById(R.id.product_grid).setBackgroundResource(R.drawable.background_shape);
         }
+
+        MaterialButton configuration_button = view.findViewById(R.id.configuraciones);
+
+        configuration_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((NavigationHost) getActivity()).navigateTo(new ConfigurationFragment(), false);
+            }
+        });
         return view;
     }
 

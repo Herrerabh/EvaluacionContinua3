@@ -2,35 +2,35 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <com.google.android.material.button.MaterialButton
 
-        style="@style/Widget.NiceShop.Button.TextButton"
+        style="@style/Widget.Evaluacion3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_comida_nuevo"
         />
     <com.google.android.material.button.MaterialButton
 
-        style="@style/Widget.NiceShop.Button.TextButton"
+        style="@style/Widget.Evaluacion3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_comida_desayuno"
         />
     <com.google.android.material.button.MaterialButton
 
-        style="@style/Widget.NiceShop.Button.TextButton"
+        style="@style/Widget.Evaluacion3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_comida_almuerzo"
         />
     <com.google.android.material.button.MaterialButton
 
-        style="@style/Widget.NiceShop.Button.TextButton"
+        style="@style/Widget.Evaluacion3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_comida_cena"
         />
     <com.google.android.material.button.MaterialButton
 
-        style="@style/Widget.NiceShop.Button.TextButton"
+        style="@style/Widget.Evaluacion3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_comida_categoria"
@@ -44,7 +44,7 @@
         />
     <com.google.android.material.button.MaterialButton
 
-        style="@style/Widget.NiceShop.Button.TextButton"
+        style="@style/Widget.Evaluacion3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_comida_Cuenta"
