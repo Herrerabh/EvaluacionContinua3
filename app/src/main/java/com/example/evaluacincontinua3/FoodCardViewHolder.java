@@ -9,14 +9,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.volley.toolbox.NetworkImageView;
 
 public class FoodCardViewHolder extends RecyclerView.ViewHolder {
-    public NetworkImageView productImage;
-    public TextView productTitle;
-    public TextView productPrice;
+    public NetworkImageView ComidaImage;
+    public TextView ComidaTitle;
+    public TextView ComidaPrice;
 
     public FoodCardViewHolder(@NonNull View itemView){
         super(itemView);
-        productImage=itemView.findViewById(R.id.product_image);
-        productTitle=itemView.findViewById(R.id.product_title);
-        productPrice=itemView.findViewById(R.id.product_price);
+        ComidaImage=itemView.findViewById(R.id.comida_image);
+        ComidaTitle=itemView.findViewById(R.id.comida_title);
+        ComidaPrice=itemView.findViewById(R.id.comida_price);
     }
 }

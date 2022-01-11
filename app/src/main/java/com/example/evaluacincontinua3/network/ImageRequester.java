@@ -12,6 +12,7 @@ import com.android.volley.toolbox.Volley;
 import com.example.evaluacincontinua3.application.AplicationEv3;
 
 public class ImageRequester {
+
     private static ImageRequester instance = null;
     private final Context context;
     private final RequestQueue requestQueue;

@@ -25,8 +25,7 @@
             android:layout_alignParentRight="true"
             android:text="Configuraciones"
             style="@style/Widget.Evaluacion3.Button3"
-
-            />
+        />
 
         <include layout="@layout/backdrop"/>
 
@@ -51,19 +50,21 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView
-        android:id="@+id/product_grid"
+        android:id="@+id/comida_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="56dp"
         android:background="?attr/colorOnPrimary"
-        android:paddingStart="@dimen/product_grid_spacing"
-        android:paddingEnd="@dimen/product_grid_spacing"
+        android:paddingStart="@dimen/comida_grid_spacing"
+        android:paddingEnd="@dimen/comida_grid_spacing"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+
     </androidx.core.widget.NestedScrollView>
 
 

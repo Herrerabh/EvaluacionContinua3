@@ -14,9 +14,9 @@
         android:orientation="vertical"
         >
         <com.android.volley.toolbox.NetworkImageView
-            android:id="@+id/product_image"
+            android:id="@+id/comida_image"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/product_grid_Card_image_height"
+            android:layout_height="@dimen/comida_grid_Card_image_height"
             android:background="?attr/colorOnPrimary"
             android:scaleType="centerCrop"
             />
@@ -28,21 +28,23 @@
             android:padding="16dp"
             >
             <TextView
-                android:id="@+id/product_title"
+                android:id="@+id/comida_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="2dp"
-                android:text="@string/product_title"
+                android:text="@string/comida_title"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 />
             <TextView
-                android:id="@+id/product_price"
+                android:id="@+id/comida_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="2dp"
-                android:text="@string/product_description"
+                android:text="@string/comida_description"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                 />
         </LinearLayout>
+
     </LinearLayout>
+
 </com.google.android.material.card.MaterialCardView>

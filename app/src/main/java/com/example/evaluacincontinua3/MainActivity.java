@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements NavigationHost{
                     .commit();
         }
     }
+
     @Override
     public void navigateTo(Fragment fragment, boolean addToBackstack){
         FragmentTransaction transaction=
@@ -32,4 +33,5 @@ public class MainActivity extends AppCompatActivity implements NavigationHost{
         transaction.commit();
 
     }
+
 }

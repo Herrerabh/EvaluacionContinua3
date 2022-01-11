@@ -40,12 +40,12 @@ public class HomeFragment extends Fragment {
         FoodCardRecyclerViewAdapter adapter=new FoodCardRecyclerViewAdapter(
                 FoodEntry.initProductEntryList(getResources()));
         recyclerView.setAdapter(adapter);
-        int largePadding =getResources().getDimensionPixelSize(R.dimen.product_grid_spacing);
-        int smallPadding= getResources().getDimensionPixelSize(R.dimen.product_grid_spacing_small);
+        int largePadding =getResources().getDimensionPixelSize(R.dimen.comida_grid_spacing);
+        int smallPadding= getResources().getDimensionPixelSize(R.dimen.comida_grid_spacing_small);
         recyclerView.addItemDecoration(new FoodGridItemDecoration(largePadding, smallPadding));
         // set shape corner background for API 23+
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            view.findViewById(R.id.product_grid).setBackgroundResource(R.drawable.background_shape);
+            view.findViewById(R.id.comida_grid).setBackgroundResource(R.drawable.background_shape);
         }
 
         MaterialButton configuration_button = view.findViewById(R.id.configuraciones);
@@ -67,7 +67,7 @@ public class HomeFragment extends Fragment {
         }
         toolbar.setNavigationOnClickListener(new NavigationIconClickListener(
                 getContext(),
-                view.findViewById(R.id.product_grid),
+                view.findViewById(R.id.comida_grid),
                 new AccelerateDecelerateInterpolator(),
                 getContext().getResources().getDrawable(R.drawable.menu),
                 getContext().getResources().getDrawable(R.drawable.cerrar)));

@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 
 public class NavigationIconClickListener implements View.OnClickListener {
+
     private final AnimatorSet animatorSet = new AnimatorSet();
     private Context context;
     private View sheet;
@@ -53,7 +54,7 @@ public class NavigationIconClickListener implements View.OnClickListener {
 
         updateIcon(view);
 
-        final int translateY = height - context.getResources().getDimensionPixelSize(R.dimen.product_grid_reveal_height);
+        final int translateY = height - context.getResources().getDimensionPixelSize(R.dimen.comida_grid_reveal_height);
         ObjectAnimator animator = ObjectAnimator.ofFloat(sheet, "translationY", backdropShown ? translateY : 0);
         animator.setDuration(500);
         if (interpolator != null) {

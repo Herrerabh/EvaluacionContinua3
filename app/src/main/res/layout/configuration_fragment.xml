@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     tools:context=".ConfigurationFragment"
+
     >
 
     <RelativeLayout
@@ -64,7 +64,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+51 960824612"
+                android:text="+51 949449802"
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 android:layout_gravity="center"

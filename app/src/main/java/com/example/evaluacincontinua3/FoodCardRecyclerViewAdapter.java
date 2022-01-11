@@ -13,11 +13,12 @@ import com.example.evaluacincontinua3.network.FoodEntry;
 import java.util.List;
 
 public class FoodCardRecyclerViewAdapter extends RecyclerView.Adapter<FoodCardViewHolder> {
-    private List<FoodEntry> productList;
+
+    private List<FoodEntry> comidaList;
     private ImageRequester imageRequester;
 
     FoodCardRecyclerViewAdapter(List<FoodEntry> productList){
-        this.productList= productList;
+        this.comidaList= productList;
         imageRequester = ImageRequester.getInstance();
     }
 
@@ -30,16 +31,16 @@ public class FoodCardRecyclerViewAdapter extends RecyclerView.Adapter<FoodCardVi
 
     @Override
     public void onBindViewHolder(@NonNull FoodCardViewHolder holder, int position){
-        if(productList!= null & position<productList.size()){
-            FoodEntry product= productList.get(position);
-            holder.productTitle.setText(product.title);
-            holder.productPrice.setText(product.price);
-            imageRequester.setImageFromUrl(holder.productImage, product.url);
+        if(comidaList!= null & position<comidaList.size()){
+            FoodEntry product= comidaList.get(position);
+            holder.ComidaTitle.setText(product.title);
+            holder.ComidaPrice.setText(product.price);
+            imageRequester.setImageFromUrl(holder.ComidaImage, product.url);
         }
     }
 
     @Override
     public int getItemCount(){
-        return productList.size();
+        return comidaList.size();
     }
 }

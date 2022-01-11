@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.button.MaterialButton;
 
-public class ConfigurationFragment extends Fragment{
+public class ConfigurationFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class ConfigurationFragment extends Fragment{
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+
         View view=inflater.inflate(R.layout.configuration_fragment,container, false);
         MaterialButton configuration_button = view.findViewById(R.id.retroceder);
 
@@ -34,5 +35,6 @@ public class ConfigurationFragment extends Fragment{
 
         return view;
     }
+
 
 }
